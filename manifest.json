@@ -1,12 +1,17 @@
 {
     "name": "YouGreen: Saving the Planet one video at a time",
     "version": "1.0",
-    "description": "Do you know that upto 3kg of CO2 is produced per GB of data transfer? Now listen to the music on YouTube without wasting tons of GB data when music is playing in the background tab. This extension automatically downgrades video quality to lowest when music is playing in the background tab, without downgrading audio quality, and upgrades video quality intelligently when you visit YouTube tab to watch something.",
+    "description": "Do you know that upto 3kg of CO2 is produced per GB of data transfer? But now you can listen to music on YouTube without wasting tons of GB data when music is playing in the background tab. This extension automatically downgrades video quality to lowest when music is playing in the background tab, without downgrading audio quality, and upgrades video quality intelligently when you visit YouTube tab to watch something.",
     "background": {
       "scripts": ["background.js"],
       "persistent": false
     },
     "manifest_version": 2,
+    "icons": {
+      "16": "16.png",
+      "48": "48.png",
+      "128": "128.png"
+    },
     "permissions": [
         "storage",
         "tabs",
