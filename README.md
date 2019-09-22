@@ -6,7 +6,7 @@ From cat videos to live game streaming, the world loves to watch videos on YouTu
 
 
 
-Now let's jump into a different story. Some days ago, I came across [this article](https://www.emergeinteractive.com/insights/detail/does-irresponsible-web-development-contribute-to-global-warming/)
+Now let's jump into a different story. Some days ago, I came across [this article](https://www.emergeinteractive.com/insights/detail/does-irresponsible-web-development-contribute-to-global-warming/).
 
 > According to the American Council for an Energy-Efficient Economy it takes 5.12 kWh of electricity per gigabyte of transferred data. And according to the Department of Energy the average US power plant expends 600 grams of carbon dioxide for every kWh generated. That means that transferring 1GB of data produces 3kg of CO2.
 
@@ -29,7 +29,7 @@ Now, coming back to the problem.
 We know that music videos are still running continuously in the background tab(since I start writing this article) while fetching 100s of MB on full HD quality, but what if there's a way in which we can still listen to the music in the same quality by restricting video quality to the lowest, which we were not watching anyway and it'll function by fetching just fraction of the data compared to former way.
 
 
-So, here's the simple solution, YouGreen, saving the planet one video at a time
+So, here's the simple solution, YouGreen, saving the planet one video at a time.
 
 
 
