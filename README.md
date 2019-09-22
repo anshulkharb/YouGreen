@@ -10,7 +10,7 @@ Now let's jump into a different story. Some days ago, I came across [this articl
 
 > According to the American Council for an Energy-Efficient Economy it takes 5.12 kWh of electricity per gigabyte of transferred data. And according to the Department of Energy the average US power plant expends 600 grams of carbon dioxide for every kWh generated. That means that transferring 1GB of data produces 3kg of CO2.
 
-I cross-checked the data with different references, and surprisingly and unfortunately these numbers seem to accurate, possibly.
+(I cross-checked the data with different references, and surprisingly and unfortunately these numbers seem to accurate, possibly.)
 
 
 Now let's check some other numbers, [according to Netflix](https://help.netflix.com/en/node/87)
