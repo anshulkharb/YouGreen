@@ -22,4 +22,5 @@ chrome.runtime.onMessage.addListener( function(request, sender) {
     helpLink.setAttribute('style',"color: white");
     helpLink.innerText = "Help it spread ";
     x.appendChild(helpLink);
+    x.setAttribute("style", "font-size: x-small")
 })

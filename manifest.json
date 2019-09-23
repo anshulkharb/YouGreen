@@ -1,6 +1,6 @@
 {
     "name": "YouGreen: Save the Planet one video at a time",
-    "version": "1.0",
+    "version": "1.2",
     "description": "Listen to music on YouTube without wasting tons of GB data when it's playing in the background tab, no comprome in audio quality.",
     "background": {
       "scripts": ["background.js"],
