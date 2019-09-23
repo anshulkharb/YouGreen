@@ -1,7 +1,7 @@
 # YouGreen
 Save the Planet one video at a time
 
-You can download extension from [here]().
+You can download extension from [here](https://chrome.google.com/webstore/detail/kkmjnhmmeibepfpgnfpodpfjfahbmalm/).
 
 TL;DR
 
