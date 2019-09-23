@@ -7,6 +7,7 @@ TL;DR
 
 Do you know that upto 3kg of CO2 is produced per GB of data transfer? But now you can listen to music on YouTube without wasting tons of GB data when music is playing in the background tab. This extension automatically downgrades video quality to lowest when music is playing in the background tab, without downgrading audio quality, and upgrades video quality intelligently when you visit YouTube tab to watch something.
 
+---------------------------------
 
 
 From cat videos to live game streaming, the world loves to watch videos on YouTube. YouTube has a variety of categories of videos, but music dominates them all, [almost all](https://en.wikipedia.org/wiki/List_of_most-viewed_YouTube_videos) the most-watched videos are music videos. It is a general process that we start playing our latest favorite on one tab and continue doing some other stuff on a different tab. But there's one problem in this, what? In the background tab, one song ends and another starts and it goes on, still couldn't figure out the problem? Problem is that videos are running continuously in the background and they're fetching 100s of MB on full HD quality.
