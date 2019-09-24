@@ -15,11 +15,8 @@ chrome.tabs.onActivated.addListener(function () {
                             chrome.storage.sync.get({ 'videosParsed': 0 }, function (result) {
                                 t = result.videosParsed
                                 t += 1
-                                kg = t * .18
-                                kg = kg.toFixed(2)
-                                console.log(kg)
                                 chrome.storage.sync.set({ 'videosParsed': t })
-                                chrome.tabs.sendMessage(tabId, { 'CO2_saved': kg });
+                                chrome.tabs.sendMessage(tabId, { 'videosParsed': t });
                             });
     
                         }
