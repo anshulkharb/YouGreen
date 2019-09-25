@@ -37,6 +37,9 @@ So, here's the simple solution, YouGreen: saving the planet one video at a time.
 
 ### Here's it how it works:
 
-Just install YouGreen. Now whenever any video that will autoplay in the background, it's video quality will automatically be downgraded to lowest. And when you'll come back to that tab, that was playing music in background, and play some other video manually, YouGreen will intelligently upgrade video quality.
+- Install extension.
+- Now, you can set default quality by clicking extension's icon located on address bar.
+- Now whenever any video that will autoplay in the background, it's video quality will automatically be downgraded to lowest.
+- And when you'll come back to that tab, that was playing music in background, and play some other video manually, YouGreen will intelligently upgrade to your selected default video quality.
 
 ### For collaboration or anything else, shoot mail at hi@anshulkharb.com
