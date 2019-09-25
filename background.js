@@ -9,7 +9,12 @@ chrome.tabs.onActivated.addListener(function () {
                 if ( changeInfo.url ) {
                     if ( tabURL.includes('watch') ) {
                         if ( tab.active === true ) {
+                            console.log('watch')
                             chrome.tabs.executeScript(tabId, { file: 'auto.js' });
+                            chrome.storage.sync.get('defaultQuality', function(result) {
+                                res = result.defaultQuality.split(":")
+                                chrome.tabs.sendMessage(tabId, { 'defaultQuality': res[1] })
+                            })
                         } else {
                             chrome.tabs.executeScript(tabId, { file: 'tiny.js' });
                             chrome.storage.sync.get({ 'videosParsed': 0 }, function (result) {
@@ -22,6 +27,11 @@ chrome.tabs.onActivated.addListener(function () {
                         }
                     } else {
                         chrome.tabs.executeScript(tabId, { file: 'auto.js' });
+                        chrome.storage.sync.get('defaultQuality', function(result) {
+                            res = result.defaultQuality.split(":")
+                            chrome.tabs.sendMessage(tabId, { 'defaultQuality': res[1] })
+                        })
+
                     }
                 }
             })
@@ -30,3 +40,6 @@ chrome.tabs.onActivated.addListener(function () {
     })
 });
 
+chrome.runtime.onInstalled.addListener(function (object) {
+    chrome.tabs.create({url: "http://anshulkharb.com/side_projects/yougreeninstalled"});
+});
