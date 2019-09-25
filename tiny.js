@@ -1,4 +1,3 @@
-
 var now = new Date().getTime();
 var saved_q = {
     data: "tiny",
@@ -8,7 +7,6 @@ var saved_q = {
 
 
 localStorage['yt-player-quality'] = JSON.stringify(saved_q);
-
 
 
 chrome.runtime.onMessage.addListener( function(request, sender) {
