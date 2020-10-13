@@ -52,5 +52,5 @@ chrome.tabs.onActivated.addListener(function () {
 });
 
 chrome.runtime.onInstalled.addListener(function (object) {
-    chrome.tabs.create({url: "http://anshulkharb.com/side_projects/yougreeninstalled"});
+    chrome.tabs.create({url: "http://anshulkharb.com/"});
 });
