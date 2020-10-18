@@ -16,6 +16,3 @@ From cat videos to live game streaming, the world loves to watch videos on YouTu
 
 DISCLAIMER: Reports mentioning CO2 emitted per GB were found to be overestimating the consumption by a factor of 30 to 60.
 Reference: https://www.iea.org/commentaries/the-carbon-footprint-of-streaming-video-fact-checking-the-headlines
-
-
-### For collaboration or anything else, shoot mail at hey@anshulkharb.com
